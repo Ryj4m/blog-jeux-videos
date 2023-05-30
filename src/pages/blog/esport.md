@@ -11,6 +11,6 @@ je modifie l'article existant.
 
 ### LEAGUE OF LEGENDS
 
-La Karmine corp 
+La Karmine corp
 
 ### VALORANT
