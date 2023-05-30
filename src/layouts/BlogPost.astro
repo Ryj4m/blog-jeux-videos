@@ -10,29 +10,33 @@ import '../styles/global.css';
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
+  <body>
 
-	<header>
-		<p>Notre super blog</p>
-		<nav>
-			<a href="/">Accueil</a>
-		</nav>
-	</header>
+    <header>
+      <p>Notre super blog</p>
+      <nav>
+        <a href="/">Accueil</a>
+      </nav>
+    </header>
 
-  <main>
-    <article>
-		  <slot />
-    </article>
-  </main>
+    <main>
+      <article>
+        <slot />
+      </article>
+    </main>
 
-	<footer>Made in Toulouse, France.</footer>
+    <footer>Made in Toulouse, France.</footer>
 
-</body>
+  </body>
 </html>
 
 <style>
   main{
     max-width: 900px;
     margin : 0px auto;
+  }
+  article{
+    padding: 20px;
+    background-color: white;
   }
 </style>
