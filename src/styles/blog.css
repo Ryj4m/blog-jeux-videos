@@ -1,3 +1,10 @@
 .content h1 {
-  color: red;
+  margin-bottom: 30px;
+}
+
+.content p {
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 23px;
+  inline-size: 85ch;
 }
