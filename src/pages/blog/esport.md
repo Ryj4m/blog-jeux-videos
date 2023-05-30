@@ -4,7 +4,7 @@ layout: ../../layouts/BlogPost.astro
 
 # ESPORT
 
-[Retourné à l'accueil](/)
+[Retourner à l'accueil](/)
 
 ## KARMINE CORP
 
@@ -12,6 +12,6 @@ je modifie l'article existant.
 
 ### LEAGUE OF LEGENDS
 
-La Karmine corp 
+La Karmine corp
 
 ### VALORANT
