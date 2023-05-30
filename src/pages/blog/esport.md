@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/BlogPost.astro
+title : Karmine Corp
 ---
 
 # ESPORT

@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/BlogPost.astro
+title : Zelda TOTK
 ---
 
 # Zelda : Une saga légendaire qui captive tout le monde !
