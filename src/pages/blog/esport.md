@@ -1,3 +1,7 @@
+---
+layout: ../../layouts/BlogPost.astro
+---
+
 # ESPORT
 
 [Retourné à l'accueil](/)
