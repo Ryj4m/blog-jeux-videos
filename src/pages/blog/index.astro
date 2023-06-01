@@ -5,15 +5,31 @@ const allPosts = await Astro.glob('./*.md');
 ---
 
 <Base>
-  <h1>Blog</h1>
+<main>
   <h2>Liste des articles</h2>
-  <ul>
-    {
-        allPosts.map((post) => (
-            <li>
-                <a href={`${post.url}/`}>{post.frontmatter.title}</a>
-            </li>
-        ))
-    }
-</ul>
+      <ul>
+        {
+            allPosts.map((post) => (
+                <li>
+                    <a href={`${post.url}/`}>{post.frontmatter.title}</a>
+                </li>
+            ))
+        }
+      </ul>
+  </main>
 </Base>
+
+<style>
+    main{
+        padding: 50px 10px;
+    }
+    a{
+        text-decoration: none;
+        color: bleu;
+    }
+    ul{
+        padding : 20px;
+        list-style-type: none;
+
+    }
+</style>
