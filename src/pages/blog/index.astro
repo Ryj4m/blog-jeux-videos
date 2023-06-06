@@ -10,8 +10,10 @@ const allPosts = await Astro.glob('./*.md');
       <ul>
         {
             allPosts.map((post) => (
-                <li>
-                    <a href={`${post.url}/`}>{post.frontmatter.title}</a>
+                <li class="card">
+                    <h3 class="card-h3">{post.frontmatter.title}</h3>
+                    <p>{post.frontmatter.description}</p>   
+                    <button class="card-button"><a href={`${post.url}/`} class="card-link">En voir plus</a></button>
                 </li>
             ))
         }
