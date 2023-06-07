@@ -4,9 +4,9 @@
   margin: 0 auto;
   margin-bottom: 25px;
   padding: 20px;
-  background-color: rgb(238, 238, 238);
+  background-color: #010815;
   border-radius: 10px;
-  box-shadow: 0px 5px 10px grey;
+  border : solid 2px #fafafa
 }
 
 .card p{
@@ -14,16 +14,15 @@
 }
 
 .card-link{
-  color : black;
+  color : #eee;
 }
 
 .card-button{
   margin-top: 15px;
   justify-self: right;
-  background-color: rgb(111, 111, 251);
+  background-color: #7f00ff;
   padding : 10px 20px;
   border-radius : 10px;
-  box-shadow: 0px 2px 10px grey;
 }
 
 .card-button:hover{
@@ -31,5 +30,6 @@
 }
 
 .card-h3{
+  color : #7f00ff;
   margin-bottom : 10px;
 }
