@@ -1,0 +1,31 @@
+.accueil article{
+  padding : 25px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.text{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.accueil p{
+  color : black;
+  grid-column: 1;
+  grid-row: 2;
+  margin-bottom: 4vh;
+}
+
+.accueil h4{
+  margin-top: 8vh;
+  display: block;
+}
+
+.accueil img{
+  margin-right: 30px;
+  display: inline;
+  border-radius: 280px;
+  width: 200px;
+}

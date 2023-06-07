@@ -6,18 +6,12 @@ body{
   flex : 1 0 auto;
 }
 
-h2 {
-  margin-bottom: 15px;
+main{
+  padding: 50px 20px;
 }
 
-.sidebar{
-  height: 100%;
-  width: 150px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding-top:40px;
-  background-color: lightblue;
+h2 {
+  margin-bottom: 15px;
 }
 
 /*                           FOOTER                       */

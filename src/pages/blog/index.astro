@@ -5,7 +5,6 @@ const allPosts = await Astro.glob('./*.md');
 ---
 
 <Base>
-<main>
   <h2>Liste des articles</h2>
       <ul>
         {
@@ -18,13 +17,9 @@ const allPosts = await Astro.glob('./*.md');
             ))
         }
       </ul>
-  </main>
 </Base>
 
 <style>
-    main{
-        padding: 50px 10px;
-    }
     a{
         text-decoration: none;
         color: bleu;
