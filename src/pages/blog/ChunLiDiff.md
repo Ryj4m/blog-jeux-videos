@@ -1,5 +1,7 @@
 ---
 layout: ../../layouts/BlogPost.astro
+title : Zelda TOTK
+description : lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit itaque in nesciunt suscipit deserunt quaerat cupiditate explicabo quam perferendis mollitia. Molestiae quasi rerum, nisi delectus quis in voluptatum error omnis.
 ---
 
 # Zelda : Une saga légendaire qui captive tout le monde !

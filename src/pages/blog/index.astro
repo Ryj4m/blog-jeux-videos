@@ -1,11 +1,31 @@
 ---
 import Base from "../../layouts/Main.astro"
+
+const allPosts = await Astro.glob('./*.md');
 ---
 
 <Base>
-  <h1>Blog</h1>
   <h2>Liste des articles</h2>
-  <ul>
-    <li><a href="/blog/esport">blog test</a></li>
-  </ul>
+      <ul>
+        {
+            allPosts.map((post) => (
+                <li class="card">
+                    <h3 class="card-h3">{post.frontmatter.title}</h3>
+                    <p>{post.frontmatter.description}</p>   
+                    <button class="card-button"><a href={`${post.url}/`} class="card-link">En voir plus</a></button>
+                </li>
+            ))
+        }
+      </ul>
 </Base>
+
+<style>
+    a{
+        text-decoration: none;
+        color: bleu;
+    }
+    ul{
+        padding : 20px;
+        list-style-type: none;
+    }
+</style>

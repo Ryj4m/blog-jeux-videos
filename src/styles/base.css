@@ -3,4 +3,55 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
   background-color: #eee;
+  flex : 1 0 auto;
+}
+
+main{
+  padding: 50px 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+/*                           FOOTER                       */
+
+.footer{
+  text-align: center;
+  box-shadow: 0px -5px 10px grey;
+  width: 100%;
+  padding: 40px 0px;
+  flex-shrink: 0;
+}
+
+
+/*                           HEADER                       */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0px 5px 10px grey;
+  max-width: 100%;
+  padding: 30px 0px;
+}
+
+.header nav{
+  padding-right: 5vw;
+  display: inline;
+}
+
+.header a{
+  color : black;
+  padding : 0 10px;
+}
+
+.header li{
+  display: inline;
+  list-style-type: none;
+}
+
+.header p{
+  display : inline; 
+  padding-left: 5vw;
 }
