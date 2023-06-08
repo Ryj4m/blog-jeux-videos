@@ -20,7 +20,7 @@
 .card-button{
   margin-top: 15px;
   justify-self: right;
-  background-color: #7f00ff;
+  background-color: #9e3cff;
   padding : 10px 20px;
   border-radius : 10px;
 }
@@ -30,6 +30,6 @@
 }
 
 .card-h3{
-  color : #7f00ff;
+  color : #9e3cff;
   margin-bottom : 10px;
 }
