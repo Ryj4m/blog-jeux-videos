@@ -1,8 +1,8 @@
 body{
   font-size : 1.1rem;
   font-family: Arial, Helvetica, sans-serif;
-  color: #222;
-  background-color: #eee;
+  color: #eee;
+  background-color: #010815;
   flex : 1 0 auto;
 }
 
@@ -12,13 +12,14 @@ main{
 
 h2 {
   margin-bottom: 15px;
+  color: #9e3cff;
 }
 
 /*                           FOOTER                       */
 
 .footer{
   text-align: center;
-  box-shadow: 0px -5px 10px grey;
+  border-top: solid 1px #eee;
   width: 100%;
   padding: 40px 0px;
   flex-shrink: 0;
@@ -31,7 +32,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  box-shadow: 0px 5px 10px grey;
+  border-bottom: solid 1px #eee;
   max-width: 100%;
   padding: 30px 0px;
 }
@@ -42,8 +43,13 @@ h2 {
 }
 
 .header a{
-  color : black;
+  color : #eee;
   padding : 0 10px;
+  text-decoration: none;
+}
+
+.header a:hover{
+  color : #9e3cff;
 }
 
 .header li{

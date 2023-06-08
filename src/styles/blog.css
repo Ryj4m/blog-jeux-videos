@@ -1,8 +1,15 @@
+.content {
+  background-color: #081731;
+  border-radius: 25px;
+}
+
 .content h1 {
+  color: #9e3cff;
   margin-bottom: 30px;
 }
 
 .content p {
+  color: #eee;
   margin-bottom: 50px;
   font-size: 16px;
   line-height: 23px;

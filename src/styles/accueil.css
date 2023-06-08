@@ -1,26 +1,21 @@
-.accueil article{
-  padding : 25px;
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.text{
+.accueil{
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
 }
 
-.accueil p{
-  color : black;
-  grid-column: 1;
-  grid-row: 2;
-  margin-bottom: 4vh;
+.accueil div{
+  display: grid;
+  grid-template-columns: (1, 1fr);
+  margin-bottom: 20px;
+  justify-content: center;
 }
 
 .accueil h4{
-  margin-top: 8vh;
-  display: block;
+  margin-top: 3vh;
+  margin-right: 2vw;
+  display: flex;
+  justify-content: center;
 }
 
 .accueil img{
@@ -28,4 +23,22 @@
   display: inline;
   border-radius: 280px;
   width: 200px;
+}
+
+.presentation{
+  display: grid;
+  margin-bottom: 45px;
+}
+
+.presentation a{
+  text-decoration: none;
+  color : #eee; 
+}
+
+.presentation button{
+  background-color: #9e3cff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-top: 25px;
+  justify-self: left;
 }
