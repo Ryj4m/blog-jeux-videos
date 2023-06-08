@@ -37,9 +37,11 @@ h2 {
   padding: 30px 0px;
 }
 
-.header nav{
+.header .nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding-right: 5vw;
-  display: inline;
 }
 
 .header a{
@@ -50,11 +52,6 @@ h2 {
 
 .header a:hover{
   color : #9e3cff;
-}
-
-.header li{
-  display: inline;
-  list-style-type: none;
 }
 
 .header p{

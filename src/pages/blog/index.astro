@@ -12,7 +12,7 @@ const allPosts = await Astro.glob('./*.md');
                 <li class="card">
                     <h3 class="card-h3">{post.frontmatter.title}</h3>
                     <p>{post.frontmatter.description}</p>
-                    <a href={`${post.url}/`} target="_blank" class="card-button">En voir plus</a>
+                    <a href={`${post.url}/`} class="card-button">En voir plus</a>
                 </li>
             ))
         }
