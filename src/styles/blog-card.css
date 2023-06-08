@@ -5,12 +5,14 @@
   margin-bottom: 25px;
   padding: 20px;
   background-color: #010815;
+  backdrop-filter: blur(2px);
   border-radius: 10px;
   border : solid 2px #fafafa
 }
 
 .card p{
   display: block;
+  max-width: 90ch;
 }
 
 .card-link{
@@ -23,6 +25,7 @@
   background-color: #9e3cff;
   padding : 10px 20px;
   border-radius : 10px;
+  transition: scale 0.3s ease;
 }
 
 .card-button:hover{
